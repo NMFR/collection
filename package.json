@@ -1,0 +1,33 @@
+{
+  "name": "collection",
+  "version": "0.0.0",
+  "author": "Nuno Rodrigues",
+  "description": "Utility functions to work with iterable collections.",
+  "dependencies": {},
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-eslint": "^7.2.3",
+    "babel-preset-env": "^1.5.2",
+    "eslint": "^3.19.0",
+    "eslint-config-airbnb": "^15.0.1",
+    "eslint-plugin-import": "^2.3.0",
+    "eslint-plugin-jsx-a11y": "^5.0.3",
+    "eslint-plugin-react": "^7.0.1"
+  },
+  "scripts": {
+    "build": "babel src -d lib",
+    "lint": "eslint ./src"
+  },
+  "main": "src/index.js",
+  "homepage": "http://github.com/NMFR/collection",
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/NMFR/collection.git"
+  },
+  "keywords": [
+    "collection",
+    "collections",
+    "iterable"
+  ],
+  "license": "MIT"
+}
